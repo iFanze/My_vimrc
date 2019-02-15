@@ -24,6 +24,7 @@ set backspace=2
 set scrolloff=3
 set incsearch
 set tags=./.tags;,.tags
+set relativenumber
 
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 
